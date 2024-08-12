@@ -4,7 +4,7 @@ import StoreProvider from "./StoreProvider";
 import Navbar from "@/components/Navbar/Navbar";
 import "./globals.css";
 
-const quicksand = Quicksand({ subsets: ["latin"], weight: "600" });
+const quicksand = Quicksand({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "FutureResume",

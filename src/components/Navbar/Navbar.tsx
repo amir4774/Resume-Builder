@@ -5,7 +5,7 @@ import ToggleMoodButton from "./ToggleMoodButton";
 
 const Navbar = () => {
   return (
-    <nav className="fixed w-full shadow-lg flex justify-between items-center py-4">
+    <nav className="fixed bg-[#fff] w-full shadow-lg py-4 dark:bg-dark_bg">
       <div className="container flex justify-between items-center">
         <div className="flex items-center">
           <Image
