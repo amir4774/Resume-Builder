@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { LuSunMedium } from "react-icons/lu";
 import HamburgerMenu from "./HamburgerMenu";
 import SignUp_SignIn_Button from "./SignUp_SignIn_Button";
+import ToggleMoodButton from "./ToggleMoodButton";
 
 const Navbar = () => {
   return (
@@ -23,9 +23,7 @@ const Navbar = () => {
         <div className="items-center hidden space-x-8 md:flex">
           <SignUp_SignIn_Button text="Sign up" classes="btn-secondary" />
           <SignUp_SignIn_Button text="Sign in" classes="btn-primary" />
-          <button className="btn hover:bg-gray-300">
-            <LuSunMedium className="size-7 m-1" />
-          </button>
+          <ToggleMoodButton />
         </div>
 
         <HamburgerMenu />

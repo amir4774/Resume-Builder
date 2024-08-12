@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Quicksand } from "next/font/google";
+import StoreProvider from "./StoreProvider";
+import Navbar from "@/components/Navbar/Navbar";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const quicksand = Quicksand({ subsets: ["latin"], weight: "600" });
 
 export const metadata: Metadata = {
   title: "FutureResume",
@@ -16,7 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={quicksand.className}>
+        <StoreProvider>
+          <Navbar />
+          <section className="pt-28">{children}</section>
+        </StoreProvider>
+      </body>
     </html>
   );
 }

@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  .dark {
+    @apply bg-dark_bg text-white;
+  }
+
   .container {
     @apply mx-auto w-[90%] sm:w-[95%];
   }

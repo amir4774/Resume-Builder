@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import { LuSunMedium } from "react-icons/lu";
 import SignUp_SignIn_Button from "./SignUp_SignIn_Button";
 import HamburgerMenuIcon from "./HamburgerMenuIcon";
+import ToggleMoodButton from "./ToggleMoodButton";
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,9 +53,7 @@ const HamburgerMenu = () => {
             />
           </li>
           <li className="flex items-center justify-center">
-            <button className="btn text-white">
-              <LuSunMedium className="size-7 m-1" />
-            </button>
+            <ToggleMoodButton />
           </li>
         </ul>
       </div>
