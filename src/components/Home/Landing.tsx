@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Landing = () => {
   return (
-    <div>
+    <section>
       <div className="container mb-8 flex flex-col justify-around items-center md:flex-row">
         <div>
           <h1 className="text-4xl font-bold md:text-5xl">
@@ -32,7 +32,7 @@ const Landing = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
