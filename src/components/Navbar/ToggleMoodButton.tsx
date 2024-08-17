@@ -22,7 +22,7 @@ const ToggleMoodButton = () => {
 
   return (
     <button
-      className="btn text-white md:text-black dark:text-white md:hover:bg-gray-300"
+      className="btn py-0 text-white md:text-black dark:text-white md:hover:bg-gray-300"
       onClick={handleToggleMood}
     >
       {mood === "light" ? (

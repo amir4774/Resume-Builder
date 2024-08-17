@@ -16,7 +16,7 @@ const Landing = () => {
           </p>
 
           <div className="text-center mb-10 md:mb-0">
-            <button className="btn btn-primary text-xl py-2 px-20">
+            <button className="btn btn-primary text-xl px-20">
               Try for free
             </button>
           </div>

@@ -9,6 +9,10 @@ const config: Config = {
   darkMode: "class",
   theme: {
     extend: {
+      backgroundImage: {
+        snapshot: "url('/snapshot-bg.png')",
+        snapshot_dark: "url('/snapshot-dark-bg.png')",
+      },
       colors: {
         primary: "#FF5C00",
         dark_bg: "#1e293b",
