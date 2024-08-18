@@ -5,8 +5,8 @@ const Landing = () => {
     <section>
       <div className="container mb-8 flex flex-col justify-around items-center md:flex-row">
         <div>
-          <h1 className="text-4xl font-bold md:text-5xl">
-            Create a <span className="text-primary">resume</span> that <br />
+          <h1 className="text-4xl font-bold lg:text-5xl">
+            Create a <span className="text-primary">resume</span> that <br className="sm:inline md:hidden lg:inline" />
             secures your <span className="text-primary">dream job</span>
           </h1>
 

@@ -13,12 +13,13 @@ const Snapshot = () => {
   return (
     <section className="mb-16">
       <div className="bg-snapshot bg-center bg-cover bg-no-repeat dark:bg-snapshot_dark">
-        <div className="container flex flex-col justify-around items-center lg:flex-row">
+        <div className="container flex flex-col items-center md:flex-row md:space-x-10 lg:space-x-0 lg:justify-around">
           <SnapshotTitle />
 
           <div>
             <p className="text-center my-8 md:text-start lg:mt-0">
-              All the flexibility & intuition you need to build a resume <br />
+              All the flexibility & intuition you need to build a resume{" "}
+              <br className="md:hidden lg:inline" />
               that stands out
             </p>
 
@@ -40,7 +41,7 @@ const Snapshot = () => {
 
             <h6 className="text-xl mb-8">Our stats:</h6>
 
-            <div className="flex justify-around items-center divide-x divide-black md:justify-start">
+            <div className="flex justify-around items-center divide-x divide-black md:justify-start dark:divide-white">
               <div className="pr-6">
                 <SnapshotStats title="200+" text="users" />
               </div>

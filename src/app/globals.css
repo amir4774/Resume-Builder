@@ -23,7 +23,7 @@
     @apply bg-white text-black border border-primary;
   }
 
-  .snapshot-text {
+  .snapshot-text, .pick-text {
     @apply text-center md:text-start;
   }
 }
