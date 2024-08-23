@@ -3,10 +3,10 @@ import PickImages from "./PickImages";
 const Pick = () => {
   return (
     <section className="my-20">
-      <div className="w-[95%] mx-auto flex justify-around flex-col lg:flex-row lg:space-x-20 lg:w-[70%]">
+      <div className="w-[95%] mx-auto flex justify-around flex-col lg:flex-row lg:space-x-20 xl:w-[70%]">
         <div className="pick-text md:text-start w-full">
-          <h4 className="font-bold text-4xl">
-            You can always pick <br className="md:hidden xl:inline" /> any
+          <h4 className="title">
+            You can always pick <br className="hidden xl:inline" /> any
             template you like
           </h4>
 

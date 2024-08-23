@@ -11,6 +11,10 @@
     @apply mx-auto w-[90%] sm:w-[95%];
   }
 
+  .title {
+    @apply text-3xl font-bold md:text-4xl;
+  }
+
   .btn {
     @apply rounded-full transition-all duration-300 font-bold text-sm py-2 hover:scale-105 hover:opacity-90 active:scale-95;
   }

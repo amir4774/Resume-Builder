@@ -24,7 +24,7 @@ const steps = [
 const Steps = () => {
   return (
     <section className="my-16">
-      <h2 className="text-center text-3xl font-bold md:text-4xl">
+      <h2 className="title text-center">
         Build your <span className="text-primary">resume</span> in 3 steps
       </h2>
 

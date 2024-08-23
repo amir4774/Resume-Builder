@@ -1,3 +1,4 @@
+import About from "@/components/Home/About/About";
 import Landing from "@/components/Home/Landing";
 import Pick from "@/components/Home/Pick/Pick";
 import Snapshot from "@/components/Home/Snapshot/Snapshot";
@@ -10,6 +11,7 @@ const Home = () => {
       <Steps />
       <Snapshot />
       <Pick />
+      <About />
     </div>
   );
 };
