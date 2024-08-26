@@ -1,4 +1,5 @@
 import About from "@/components/Home/About/About";
+import Benefits from "@/components/Home/Benefits/Benefits";
 import Landing from "@/components/Home/Landing";
 import Pick from "@/components/Home/Pick/Pick";
 import Snapshot from "@/components/Home/Snapshot/Snapshot";
@@ -12,6 +13,7 @@ const Home = () => {
       <Snapshot />
       <Pick />
       <About />
+      <Benefits />
     </div>
   );
 };
