@@ -12,6 +12,12 @@ const config: Config = {
       backgroundImage: {
         snapshot: "url('/snapshot-bg.png')",
         snapshot_dark: "url('/snapshot-dark-bg.png')",
+        testimonials_bg_1: "url('/testimonials-bg-1.png')",
+        testimonials_bg_2: "url('/testimonials-bg-2.png')",
+        testimonials_bg_3: "url('/testimonials-bg-3.png')",
+        testimonials_bg_dark_1: "url('/testimonials-bg-dark-1.png')",
+        testimonials_bg_dark_2: "url('/testimonials-bg-dark-2.png')",
+        testimonials_bg_dark_3: "url('/testimonials-bg-dark-3.png')",
       },
       colors: {
         primary: "#FF5C00",
