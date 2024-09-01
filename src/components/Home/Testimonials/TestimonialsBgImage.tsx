@@ -6,7 +6,7 @@ const TestimonialsBgImage = ({
 }: TestimonialsBgImagePropsTypes) => {
   return (
     <div
-      className={`bg-${background} bg-center bg-cover bg-no-repeat size-full absolute -z-50 xl:bg-contain dark:bg-${darkBackground}`}
+      className={`${background} bg-center bg-cover bg-no-repeat size-full absolute -z-50 ${darkBackground}`}
     ></div>
   );
 };

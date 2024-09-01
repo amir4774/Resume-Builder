@@ -2,6 +2,7 @@ import Image from "next/image";
 import HamburgerMenu from "./HamburgerMenu";
 import SignUp_SignIn_Button from "./SignUp_SignIn_Button";
 import ToggleMoodButton from "./ToggleMoodButton";
+import SiteTitle from "../SiteTitle";
 
 const Navbar = () => {
   return (
@@ -15,9 +16,7 @@ const Navbar = () => {
             height={60}
             className="scale-125"
           />
-          <h1 className="text-2xl text-primary font-bold mb-2 ml-[-5px]">
-            FutureResume
-          </h1>
+          <SiteTitle />
         </div>
 
         <div className="items-center hidden space-x-8 md:flex">
