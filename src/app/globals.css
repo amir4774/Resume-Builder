@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  a {
+    @apply inline-block after:content-[""] after:w-0 after:duration-300 after:block hover:after:w-full hover:after:border-b-2;
+  }
+
   .dark {
     @apply bg-dark_bg text-white;
   }
@@ -27,7 +31,8 @@
     @apply bg-white text-black border border-primary;
   }
 
-  .snapshot-text, .pick-text {
+  .snapshot-text,
+  .pick-text {
     @apply text-center md:text-start;
   }
 }
