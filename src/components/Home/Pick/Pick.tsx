@@ -19,7 +19,7 @@ const Pick = () => {
             using pre-established parts that have been endorsed by recruiters
             internationally, you can begin creating your resume in under 5
             seconds, additionally, you can edit to fit your preferences and
-            personality before clicking "Download". Even if you have never
+            personality before clicking &quot;Download&quot;. Even if you have never
             created a resume before, it is that SIMPLE to use!
           </p>
         </div>
