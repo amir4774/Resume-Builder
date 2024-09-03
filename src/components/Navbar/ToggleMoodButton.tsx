@@ -15,10 +15,15 @@ const ToggleMoodButton = () => {
   };
 
   useEffect(() => {
-    mood === "dark"
+    const storedMood = localStorage.getItem("mood") as "dark" | "light";
+    if (storedMood) {
+      dispatch(toggleMood(storedMood));
+    }
+
+    storedMood === "dark"
       ? document.documentElement.classList.add("dark")
       : document.documentElement.classList.remove("dark");
-  }, [mood]);
+  }, [dispatch, mood]);
 
   return (
     <button

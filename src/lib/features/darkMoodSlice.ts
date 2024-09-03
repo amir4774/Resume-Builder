@@ -4,12 +4,11 @@ import type { RootState } from "../store";
 export const darkMoodSlice = createSlice({
   name: "darkMood",
   initialState: {
-    value: localStorage.getItem("mood") || "light",
+    value: "light",
   },
   reducers: {
     toggleMood: (state, action: PayloadAction<"dark" | "light">) => {
       state.value = action.payload;
-      localStorage.setItem("mood", action.payload);
     },
   },
 });
